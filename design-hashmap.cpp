@@ -5,9 +5,9 @@
 
 
 //leetcode(706): https://leetcode.com/problems/design-hashmap
-//approach: This solution uses two hash(double hash) functions to figure out where to store each key-value pair. 
+//Approach: This solution uses two hash(double hash) functions to figure out where to store each key-value pair. 
 //The first hash picks a main bucket, and the second finds the exact spot inside that bucket. 
-//Buckets are only created when needed, so it’s fast and doesn’t waste space.
+//Buckets are only created when needed, so overall ops are 0(1) and doesn’t waste space.
 #include<iostream>
 
 using namespace std;
